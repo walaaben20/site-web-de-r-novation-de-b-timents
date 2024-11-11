@@ -11,6 +11,18 @@ body {
     padding: 1em;
     text-align: center;
   }
+  .header-background {
+    background-image: url('im1.png'); /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7; /* Ajuste l'opacité pour que le texte soit plus lisible */
+    z-index: -1; /* Place l'image en arrière-plan */
+  }
   
   section {
     padding: 2em;
