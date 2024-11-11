@@ -7,7 +7,7 @@ body {
   
   header {
     background-image: url('im1.png'); 
-    color: #fff;
+    color: #100404;
     padding: 1em;
     text-align: center;
   }
@@ -41,7 +41,7 @@ body {
   form input, form textarea {
     margin: 0.5em 0;
     padding: 0.5em;
-    border: 1px solid #ccc;
+    border: 1px solid #8b92b6;
     border-radius: 5px;
   }
   
@@ -72,13 +72,13 @@ body {
     width: 100%;
     margin: 10px 0;
     padding: 10px;
-    border: 1px solid #5040ac;
+    border: 1px solid #5f68b1;
     border-radius: 5px;
   }
   
   #avisForm button {
-    background-color: #5040ac; /* Bouton beige foncé */
-    color: #a3acd3;
+    background-color: #5f68b1; /* Bouton beige foncé */
+    color: #abb0e3;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -95,8 +95,8 @@ body {
     border-bottom: 1px solid #28265a;
   }
   #contact {
-    background-color: #5a78c2; /* Fond beige */
-    border: 2px solid #465d9f; /* Bordure beige foncé */
+    background-color: #5f68b1; /* Fond beige */
+    border: 2px solid #28265a; /* Bordure beige foncé */
     border-radius: 10px; /* Coins arrondis */
     padding: 20px;
     margin: 20px auto;
