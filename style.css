@@ -49,7 +49,7 @@ body {
     padding: 0.7em;
     border: none;
     background-color: #444;
-    color: #fff;
+    color: #8b92b6;
     border-radius: 5px;
     cursor: pointer;
   }
@@ -77,8 +77,8 @@ body {
   }
   
   #avisForm button {
-    background-color: #6e9fcf; /* Bouton beige foncé */
-    color: #fff;
+    background-color: #5040ac; /* Bouton beige foncé */
+    color: #a3acd3;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -92,11 +92,11 @@ body {
   .commentaire {
     padding: 10px;
     margin: 10px 0;
-    border-bottom: 1px solid #d3b8ae;
+    border-bottom: 1px solid #28265a;
   }
   #contact {
-    background-color: #f5f5dc; /* Fond beige */
-    border: 2px solid #d3b8ae; /* Bordure beige foncé */
+    background-color: #5a78c2; /* Fond beige */
+    border: 2px solid #465d9f; /* Bordure beige foncé */
     border-radius: 10px; /* Coins arrondis */
     padding: 20px;
     margin: 20px auto;
@@ -119,7 +119,7 @@ body {
   
   .contact-item i {
     font-size: 24px;
-    color: #d3b8ae; /* Couleur des icônes */
+    color: #423391; /* Couleur des icônes */
     margin-right: 10px;
   }
   
