@@ -54,8 +54,8 @@ body {
     cursor: pointer;
   }
   #avis {
-    background-color: #f5f5dc; /* Couleur de fond beige */
-    border: 2px solid #d3b8ae; /* Bordure beige foncé */
+    background-color: #abb0e3;
+    border: 2px solid #5f68b1; 
     border-radius: 10px; /* Coins arrondis */
     padding: 20px;
     margin: 20px auto;
@@ -72,12 +72,12 @@ body {
     width: 100%;
     margin: 10px 0;
     padding: 10px;
-    border: 1px solid #d3b8ae;
+    border: 1px solid #5040ac;
     border-radius: 5px;
   }
   
   #avisForm button {
-    background-color: #d3b8ae; /* Bouton beige foncé */
+    background-color: #6e9fcf; /* Bouton beige foncé */
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -93,5 +93,47 @@ body {
     padding: 10px;
     margin: 10px 0;
     border-bottom: 1px solid #d3b8ae;
+  }
+  #contact {
+    background-color: #f5f5dc; /* Fond beige */
+    border: 2px solid #d3b8ae; /* Bordure beige foncé */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    text-align: center;
+  }
+  
+  #contact h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .contact-item i {
+    font-size: 24px;
+    color: #d3b8ae; /* Couleur des icônes */
+    margin-right: 10px;
+  }
+  
+  .contact-item p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .contact-item a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline;
   }
   
