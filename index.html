@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entreprise de Rénovation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- En-tête -->
+  <header>
+    <h1>Entreprise de Rénovation</h1>
+    <p>Transformez votre maison avec nos services de rénovation de qualité.</p>
+  </header>
+
+  <!-- Section d'accueil -->
+  <section id="accueil">
+    <h2>Nos Réalisations</h2>
+    <div class="projet">
+      <h3>Cuisine</h3>
+      <img src="avant_cuisine.jpg" alt="Cuisine avant" class="avant">
+      <img src="apres_cuisine.jpg" alt="Cuisine après" class="apres">
+    </div>
+    <div class="projet">
+      <h3>Toilette</h3>
+      <img src="avant_toilette.jpg" alt="Toilette avant" class="avant">
+      <img src="apres_toilette.jpg" alt="Toilette après" class="apres">
+    </div>
+    <!-- Ajoutez des sections similaires pour le salon et la chambre -->
+  </section>
+
+  <!-- Section Contact -->
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <p>Numéro WhatsApp : +123 456 789</p>
+    <p>Instagram : <a href="https://instagram.com/votrecompte" target="_blank">@votrecompte</a></p>
+    <p>Email : contact@renovation.com</p>
+  </section>
+
+  <!-- Section Commentaires -->
+  <section id="avis">
+    <h2>Commentaires</h2>
+    <form id="avisForm">
+      <input type="text" id="nom" placeholder="Votre nom" required>
+      <textarea id="commentaire" placeholder="Votre avis" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+    <div id="commentaires">
+      <!-- Les commentaires s'afficheront ici -->
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
