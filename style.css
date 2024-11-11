@@ -136,4 +136,45 @@ body {
   .contact-item a:hover {
     text-decoration: underline;
   }
+  #realisations {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #realisations h2 {
+    margin-bottom: 20px;
+  }
+  
+  .realisation {
+    margin-bottom: 30px;
+  }
+  
+  .realisation h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .avant-apres {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .avant, .apres {
+    width: 48%; /* Chaque section prend environ la moitié de la largeur */
+    text-align: center;
+  }
+  
+  .avant p, .apres p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .avant img, .apres img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
   
